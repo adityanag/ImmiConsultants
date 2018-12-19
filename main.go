@@ -15,7 +15,7 @@ import (
 	"time"
 )
 
-// RootObject is the rootobject the returned data
+// RootObject is the rootobject for the returned data
 type RootObject struct {
 	Results []Result `json:"results"`
 	Count   int64    `json:"count"`
